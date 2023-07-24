@@ -1,0 +1,13 @@
+Communication system design requires the design of hardware and software systems,
+with the objective of transmitting large volumes of information over long
+distances, with as few errors as is possible - while all the time consuming as little
+power and bandwidth as is possible. This means that impairments such as channel
+distortion, interference signals intercepted by the receiver, as well as hardware
+impairments at both the transmitter and receiver, requires mitigation [1].
+One hardware impairment that is always present at the receiver is thermal
+noise, inherent in all materials including conductors, unless cooled to very low
+temperatures. When we consider data transmission, we mean the transfer of data
+(a discrete bitstream or perhaps a digitized and compressed analog signal) over
+a point-to-point, point-to-multipoint or multipoint-to-multipoint communication
+channel [2]. Often multipoint channels are based on multiple antennas at either or
+both the transmitter and receiver.
